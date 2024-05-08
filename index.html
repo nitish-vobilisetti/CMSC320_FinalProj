@@ -1,0 +1,2606 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>3c40226b62ee4990803beb94027fd332</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="predicting-ames-iowa-house-prices" class="cell markdown"
+id="dozfZOgEmJvB">
+<h1><em>Predicting Ames, Iowa House Prices</em></h1>
+<h2 id="spring-2024-data-science-project"><em>Spring 2024 Data Science
+Project</em></h2>
+</section>
+<div class="cell markdown" id="z1SfsU_A2wQn">
+<p>Member 1: Nitish Vobilisetti, Contribution: 80% (Didn't Do A, B,
+H)</p>
+<p>Member 2: Parsh Goel, Contribution: 50% (Didn't do E, F, G, H)</p>
+<p>Member 3: Varun Prabhu, Contribution: 45% (Didn't do B, D, E)</p>
+</div>
+<div class="cell markdown" id="ehn6D5PI2kSl">
+<p><strong>Honor Pledge</strong></p>
+<p>We, all team members, agree together that the above information is
+true, and we are confident about our contributions to this submitted
+project/final tutorial.</p>
+<p>Nitish Vobilisetti, Parsh Goel, Varun Prabhu</p>
+<p>5/5/24</p>
+</div>
+<div class="cell markdown" id="Ze1UVm2u2-OB">
+<p><strong>Contribution Summaries</strong></p>
+<p>Nitish Vobilisetti: I specifically contributed to C, D, E, F, and G.
+Regarding C, I implemented ideas to eliminate multicollinearity,
+normalize our features, and perform the Tukey's HSD test after the ANOVA
+test. Regarding D and E, I researched the most applicable regression
+models and wrote code to train/evaluate them with cross-validation and a
+comprehensive comparative analysis of performance. Regarding F, I helped
+interpret RMSLE values to decide on the best model. Regarding G, I wrote
+the markdowns to explain our work, polished up this notebook's
+formatting, and ensured our final deliverable aligned with the
+assignment guidelines.</p>
+<p>Parsh Goel: I specifically contributed to A,B,C, and D. I was
+responsible for researching existing real estate prediction models,
+market trends, and potential use cases. In addition, I researched 3 to 4
+potential datasets for our real estate prediction task and cleaning the
+dataset. I also helped in making crucial decisions regarding the design
+and architecture of our Machine Learning Algorithm such as as Linear
+Regression, Decision Trees, KNN, and SVMs.</p>
+<p>Varun Prabhu: I specifically contributed to A, C, F, G, and H. I was
+involved in coming up with our original idea of using a Twitter dataset
+with a totally different project idea that would have involved sentiment
+analysis, and I also helped our group decide that we should move to a
+different idea with a new real estate dataset that we discovered. We
+ended up going with the real estate dataset, and on Checkpoint 2 I wrote
+a lengthy description for the reasons for this change and why the new
+dataset would lead to a more fulfilling and quality project. I
+calculated summary statistics and helped us isolate the effects of
+predictor variables by eliminating excessive variables that were too
+correlated to each other. I helped write the descriptions and
+implementations for concepts such as K-Fold Cross-Validation and worked
+on Data Cleaning. I also fixed errors with our original RMSLE vs
+Regressor Model visualizations. Finally, I revised the tutorial report
+and helped write the final conclusion, and as for H, I did some
+extensive research into real estate-specific data exploration projects
+and visualizations conducted in similar areas to Ames, Iowa, to see how
+our findings compared to the general data trends and results in these
+similar projects.</p>
+</div>
+<section id="introduction" class="cell markdown" id="61hF032xnDxC">
+<h1>Introduction</h1>
+</section>
+<div class="cell markdown" id="L6YtYE92nuxj">
+<p>In our project, we explore the housing market in Ames, Iowa, using a
+comprehensive dataset that encompasses various aspects of residential
+properties sold between 2006 and 2010. The main goal of our analysis is
+to answer the following question: how can we best predict a house's sale
+price based on its attributes. This predictive capability will be
+important for potential home buyers and sellers, real estate
+professionals, and policymakers to effectively navigate the Ames real
+estate market. Accurately predicting sale prices helps buyers make
+informed decisions, ensuring they invest wisely and understand market
+trends to get the best value for their money. Sellers can set
+competitive prices and understand how different features of their homes
+might affect their market value, helping to optimize their return on
+investment. For agents and brokers, understanding price determinants
+enhances their ability to advise clients on buying and selling
+strategies, improves listing accuracies, and strengthens negotiation
+tactics. With insights into how different factors influence housing
+prices, policymakers can design more effective housing policies and
+regulations that promote affordability and market stability.</p>
+</div>
+<section id="data-curation" class="cell markdown" id="Ck7BgCGBqMuO">
+<h1>Data Curation</h1>
+</section>
+<div class="cell markdown" id="_6S61RcYqOQ5">
+<p>We are using a housing <a
+href="https://jse.amstat.org/v19n3/decock/AmesHousing.txt">dataset</a>
+compiled by <a href="https://jse.amstat.org/v19n3/decock.pdf">Dean De
+Cock (2011)</a>. This dataset describes 2006 - 2010 house sales in Ames,
+Iowa. The dataset contains 2930 observations with 14 discrete, 20
+continuous, 23 ordinal, and 23 nominal variables. <a
+href="https://jse.amstat.org/v19n3/decock/DataDocumentation.txt">Here</a>
+is a more in-depth description of each feature.</p>
+</div>
+<div class="cell markdown" id="1iYpHUaYuyrZ">
+<p><strong>Libraries</strong></p>
+</div>
+<div class="cell code" id="jMfkcP43VWJt">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy.stats <span class="im">as</span> stats</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> norm</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> skew, norm</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsRegressor</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> pearsonr</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> f_oneway</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.stats.multicomp <span class="im">import</span> pairwise_tukeyhsd</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> KFold, cross_val_score</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> SVR</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeRegressor</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsRegressor</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(action<span class="op">=</span><span class="st">&quot;ignore&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="k4TUpCT5u2lV">
+<p><strong>Load Data</strong></p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:443}"
+id="P7bRsWWYV1BB" data-outputId="19e6e738-3fda-4df0-c989-1fe8986dad8f">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;https://jse.amstat.org/v19n3/decock/AmesHousing.txt&#39;</span>, delimiter<span class="op">=</span><span class="st">&#39;</span><span class="ch">\t</span><span class="st">&#39;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Replacing the white spaces in columns&#39; names</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>df.columns <span class="op">=</span> df.columns.<span class="bu">str</span>.replace(<span class="st">&#39; &#39;</span>, <span class="st">&#39;&#39;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+
+  <div id="df-2718e9e3-affb-4fd6-8a14-a8b409c38abf" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Order</th>
+      <th>PID</th>
+      <th>MSSubClass</th>
+      <th>MSZoning</th>
+      <th>LotFrontage</th>
+      <th>LotArea</th>
+      <th>Street</th>
+      <th>Alley</th>
+      <th>LotShape</th>
+      <th>LandContour</th>
+      <th>...</th>
+      <th>PoolArea</th>
+      <th>PoolQC</th>
+      <th>Fence</th>
+      <th>MiscFeature</th>
+      <th>MiscVal</th>
+      <th>MoSold</th>
+      <th>YrSold</th>
+      <th>SaleType</th>
+      <th>SaleCondition</th>
+      <th>SalePrice</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>526301100</td>
+      <td>20</td>
+      <td>RL</td>
+      <td>141.0</td>
+      <td>31770</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>IR1</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>5</td>
+      <td>2010</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>215000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>526350040</td>
+      <td>20</td>
+      <td>RH</td>
+      <td>80.0</td>
+      <td>11622</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>Reg</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>MnPrv</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>6</td>
+      <td>2010</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>105000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>526351010</td>
+      <td>20</td>
+      <td>RL</td>
+      <td>81.0</td>
+      <td>14267</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>IR1</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Gar2</td>
+      <td>12500</td>
+      <td>6</td>
+      <td>2010</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>172000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>526353030</td>
+      <td>20</td>
+      <td>RL</td>
+      <td>93.0</td>
+      <td>11160</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>Reg</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>4</td>
+      <td>2010</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>244000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>527105010</td>
+      <td>60</td>
+      <td>RL</td>
+      <td>74.0</td>
+      <td>13830</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>IR1</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>MnPrv</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2010</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>189900</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2925</th>
+      <td>2926</td>
+      <td>923275080</td>
+      <td>80</td>
+      <td>RL</td>
+      <td>37.0</td>
+      <td>7937</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>IR1</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>GdPrv</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2006</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>142500</td>
+    </tr>
+    <tr>
+      <th>2926</th>
+      <td>2927</td>
+      <td>923276100</td>
+      <td>20</td>
+      <td>RL</td>
+      <td>NaN</td>
+      <td>8885</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>IR1</td>
+      <td>Low</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>MnPrv</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>6</td>
+      <td>2006</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>131000</td>
+    </tr>
+    <tr>
+      <th>2927</th>
+      <td>2928</td>
+      <td>923400125</td>
+      <td>85</td>
+      <td>RL</td>
+      <td>62.0</td>
+      <td>10441</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>Reg</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>MnPrv</td>
+      <td>Shed</td>
+      <td>700</td>
+      <td>7</td>
+      <td>2006</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>132000</td>
+    </tr>
+    <tr>
+      <th>2928</th>
+      <td>2929</td>
+      <td>924100070</td>
+      <td>20</td>
+      <td>RL</td>
+      <td>77.0</td>
+      <td>10010</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>Reg</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>4</td>
+      <td>2006</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>170000</td>
+    </tr>
+    <tr>
+      <th>2929</th>
+      <td>2930</td>
+      <td>924151050</td>
+      <td>60</td>
+      <td>RL</td>
+      <td>74.0</td>
+      <td>9627</td>
+      <td>Pave</td>
+      <td>NaN</td>
+      <td>Reg</td>
+      <td>Lvl</td>
+      <td>...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>11</td>
+      <td>2006</td>
+      <td>WD</td>
+      <td>Normal</td>
+      <td>188000</td>
+    </tr>
+  </tbody>
+</table>
+<p>2930 rows × 82 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-2718e9e3-affb-4fd6-8a14-a8b409c38abf')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-2718e9e3-affb-4fd6-8a14-a8b409c38abf button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-2718e9e3-affb-4fd6-8a14-a8b409c38abf');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-0ab5e93f-9192-448f-b028-97505753d5b2">
+  <button class="colab-df-quickchart" onclick="quickchart('df-0ab5e93f-9192-448f-b028-97505753d5b2')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-0ab5e93f-9192-448f-b028-97505753d5b2 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="Kav5FjCT0tIK">
+<p>According to the data documentation, the dataset comes with PID and
+Order columns that are simply used for identifying each observation, so
+we can remove these.</p>
+</div>
+<div class="cell code" id="Zb2xBMQi01RE">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.drop([<span class="st">&#39;PID&#39;</span>, <span class="st">&#39;Order&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="1Cy20ZBqy-bE">
+<p><strong>Initial Look at Data</strong></p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="mwEo5X07zDcs" data-outputId="5f4bce05-7ec0-4bc8-d00c-8a43788bcb58">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of observations: &quot;</span>, df.shape[<span class="dv">0</span>])</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of predictor variables/features: &quot;</span>, df.shape[<span class="dv">1</span>] <span class="op">-</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of observations:  2930
+Number of predictor variables/features:  79
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="vfQrEVV4zgRP">
+<p>How many of our variables are categorical vs numerical? What are the
+numerical ones? What are the categorical ones?</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="HTYeF_AHzo3Z" data-outputId="9fcc82f0-d5f9-44ff-e170-2f6005624da9">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get a list of categorical features</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>categorical <span class="op">=</span> <span class="bu">list</span>(df.select_dtypes(include<span class="op">=</span><span class="st">&#39;object&#39;</span>).columns)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;We have </span><span class="sc">{</span><span class="bu">len</span>(categorical)<span class="sc">}</span><span class="ss"> categorical features and they are: &quot;</span>, categorical)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># get a list of numerical features</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>numerical <span class="op">=</span> <span class="bu">list</span>(df.select_dtypes(include<span class="op">=</span><span class="st">&#39;number&#39;</span>).columns)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;We have </span><span class="sc">{</span><span class="bu">len</span>(numerical)<span class="sc">}</span><span class="ss"> numerical features and they are: &quot;</span>, numerical)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>We have 43 categorical features and they are:  [&#39;MSZoning&#39;, &#39;Street&#39;, &#39;Alley&#39;, &#39;LotShape&#39;, &#39;LandContour&#39;, &#39;Utilities&#39;, &#39;LotConfig&#39;, &#39;LandSlope&#39;, &#39;Neighborhood&#39;, &#39;Condition1&#39;, &#39;Condition2&#39;, &#39;BldgType&#39;, &#39;HouseStyle&#39;, &#39;RoofStyle&#39;, &#39;RoofMatl&#39;, &#39;Exterior1st&#39;, &#39;Exterior2nd&#39;, &#39;MasVnrType&#39;, &#39;ExterQual&#39;, &#39;ExterCond&#39;, &#39;Foundation&#39;, &#39;BsmtQual&#39;, &#39;BsmtCond&#39;, &#39;BsmtExposure&#39;, &#39;BsmtFinType1&#39;, &#39;BsmtFinType2&#39;, &#39;Heating&#39;, &#39;HeatingQC&#39;, &#39;CentralAir&#39;, &#39;Electrical&#39;, &#39;KitchenQual&#39;, &#39;Functional&#39;, &#39;FireplaceQu&#39;, &#39;GarageType&#39;, &#39;GarageFinish&#39;, &#39;GarageQual&#39;, &#39;GarageCond&#39;, &#39;PavedDrive&#39;, &#39;PoolQC&#39;, &#39;Fence&#39;, &#39;MiscFeature&#39;, &#39;SaleType&#39;, &#39;SaleCondition&#39;]
+We have 37 numerical features and they are:  [&#39;MSSubClass&#39;, &#39;LotFrontage&#39;, &#39;LotArea&#39;, &#39;OverallQual&#39;, &#39;OverallCond&#39;, &#39;YearBuilt&#39;, &#39;YearRemod/Add&#39;, &#39;MasVnrArea&#39;, &#39;BsmtFinSF1&#39;, &#39;BsmtFinSF2&#39;, &#39;BsmtUnfSF&#39;, &#39;TotalBsmtSF&#39;, &#39;1stFlrSF&#39;, &#39;2ndFlrSF&#39;, &#39;LowQualFinSF&#39;, &#39;GrLivArea&#39;, &#39;BsmtFullBath&#39;, &#39;BsmtHalfBath&#39;, &#39;FullBath&#39;, &#39;HalfBath&#39;, &#39;BedroomAbvGr&#39;, &#39;KitchenAbvGr&#39;, &#39;TotRmsAbvGrd&#39;, &#39;Fireplaces&#39;, &#39;GarageYrBlt&#39;, &#39;GarageCars&#39;, &#39;GarageArea&#39;, &#39;WoodDeckSF&#39;, &#39;OpenPorchSF&#39;, &#39;EnclosedPorch&#39;, &#39;3SsnPorch&#39;, &#39;ScreenPorch&#39;, &#39;PoolArea&#39;, &#39;MiscVal&#39;, &#39;MoSold&#39;, &#39;YrSold&#39;, &#39;SalePrice&#39;]
+</code></pre>
+</div>
+</div>
+<section id="exploratory-data-analysis" class="cell markdown"
+id="tSHn9tcG1Qit">
+<h1>Exploratory Data Analysis</h1>
+</section>
+<div class="cell markdown" id="nnsJLKHe1ZXx">
+<p>Let's look at how our Sale Price is distributed</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="mQffuQ5c1i3Y" data-outputId="b22681ab-dbc2-481d-b5f6-c52fb1ee503c">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">6</span>))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>sns.distplot(df[<span class="st">&#39;SalePrice&#39;</span>])</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;House Price Distribution&quot;</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Sale Price ($)&quot;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/1db79fb8d37bdb0b6c082de0baa404025a613fab.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="_4s7rgfb2CCY">
+<p>The distribution of sale price seems to be right-skewed.</p>
+</div>
+<div class="cell markdown" id="swFYfKuU86dP">
+<p>Let's look at predictor variables that are highly correlated with
+sale price.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="qG3u2xgY8-c1" data-outputId="df755360-7e9f-4c3c-a3e9-186e5707568c">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Select only numeric columns for correlation analysis</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>numeric_cols <span class="op">=</span> df.select_dtypes(include<span class="op">=</span>[np.number])</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate the correlation matrix</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> numeric_cols.corr(<span class="st">&#39;pearson&#39;</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a mask for the upper triangle</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>mask <span class="op">=</span> np.triu(np.ones_like(correlation_matrix, dtype<span class="op">=</span><span class="bu">bool</span>))</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Setting up the matplotlib figure</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">30</span>, <span class="dv">25</span>))</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate a custom diverging colormap</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>cmap <span class="op">=</span> sns.diverging_palette(<span class="dv">230</span>, <span class="dv">20</span>, as_cmap<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw the heatmap with the mask and correct aspect ratio</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlation_matrix, mask<span class="op">=</span>mask, cmap<span class="op">=</span>cmap, vmax<span class="op">=</span><span class="dv">1</span>, vmin<span class="op">=-</span><span class="dv">1</span>, center<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>            annot<span class="op">=</span><span class="va">True</span>, square<span class="op">=</span><span class="va">True</span>, linewidths<span class="op">=</span><span class="fl">.5</span>, cbar_kws<span class="op">=</span>{<span class="st">&quot;shrink&quot;</span>: <span class="fl">.5</span>})</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Correlation Matrix of Ames Housing Features&quot;</span>, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/0246d899aee88afe7cf9fcf81a2f01cace7c2201.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="OIhjspej6T4A">
+<p>According to the figure above, our dataset has multicolliniearity.
+This means two or more predictor variables are highly correlated. In
+other words, one predictor variable can be linearly predicted from the
+others with a substantial degree of accuracy. This redundancy makes it
+difficult for the model to estimate the relationship between each
+predictor variable and the target variable (in this case, the Sale
+Price) independently because it becomes challenging to discern the
+effect of each predictor variable on the target. Let's see which
+predictor models are highly correlated with each other.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="WKL2WdRO9mV3" data-outputId="97dfeabb-9c24-448d-9934-bf5e4d033d97">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Identify all pairs of highly correlated features</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>highly_corr_pairs <span class="op">=</span> correlation_matrix.where(np.triu(np.<span class="bu">abs</span>(correlation_matrix) <span class="op">&gt;=</span> <span class="fl">0.8</span>, k<span class="op">=</span><span class="dv">1</span>)).stack()</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlation of each feature with &#39;SalePrice&#39;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>correlation_with_sale_price <span class="op">=</span> numeric_cols.corr()[<span class="st">&#39;SalePrice&#39;</span>]</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine which feature to remove from each highly correlated pair based on lower correlation with &#39;SalePrice&#39;</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>features_to_consider <span class="op">=</span> <span class="bu">set</span>()</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (feature1, feature2), corr_value <span class="kw">in</span> highly_corr_pairs.items():</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>feature1<span class="sc">}</span><span class="ss"> and </span><span class="sc">{</span>feature2<span class="sc">}</span><span class="ss"> are highly correlated&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>YearBuilt and GarageYrBlt are highly correlated
+TotalBsmtSF and 1stFlrSF are highly correlated
+GrLivArea and TotRmsAbvGrd are highly correlated
+GarageCars and GarageArea are highly correlated
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="pRCwtXjH2FWy">
+<p>Transitioning from the correlation matrix, let's zone in on which
+predictors are most correlated with sale price out of our 79
+predictors.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="yhT_o7u22TT5" data-outputId="db895471-a9e5-40d8-8dc5-864366cf0b66">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the 10 features most correlated with &#39;SalePrice&#39;</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>top_10_correlated_features <span class="op">=</span> correlation_matrix[<span class="st">&#39;SalePrice&#39;</span>].sort_values(key<span class="op">=</span><span class="bu">abs</span>, ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">11</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>top_10_correlated_features</span></code></pre></div>
+<div class="output execute_result" data-execution_count="42">
+<pre><code>SalePrice        1.000000
+OverallQual      0.799262
+GrLivArea        0.706780
+GarageCars       0.647877
+GarageArea       0.640401
+TotalBsmtSF      0.632280
+1stFlrSF         0.621676
+YearBuilt        0.558426
+FullBath         0.545604
+YearRemod/Add    0.532974
+GarageYrBlt      0.526965
+Name: SalePrice, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="aH1bacRrAMfw">
+<p>According to the output above, we notice that the overall quality of
+the house (OverallQual) and the Above Ground Living Area (GrLivArea)
+both have a strong correlation with the sale price of the house. Let's
+do some hypothesis testing to further investigate these
+relationships.</p>
+</div>
+<div class="cell markdown" id="sV2-Rf2E4Zbx">
+<p>Now we will conduct a Pearson Correlation Test to test the
+relationship between the Gr Living Area of a house and its Sale
+Price.</p>
+<p>The pearsonr function returns two values: the correlation coefficient
+and the p-value. The correlation coefficient ranges from -1 to 1, where
+values closer to -1 or 1 indicate a strong negative or positive
+relationship, respectively. Values near 0 indicate no linear
+relationship. The p-value tests the significance of the correlation
+coefficient.</p>
+<p>Our null and alternative hypothesis will be as follows:</p>
+<ul>
+<li>Null hypothesis (H0): There is no linear relationship between Sale
+Price and the Above Ground Living Area</li>
+<li>Alternative hypothesis (H1): There is a linear relationship between
+Sale Price and the Above Ground Living Area</li>
+</ul>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Jy4wrDk-4rq1" data-outputId="9d77dd0e-a7d8-4223-fcb6-3aebe085bbbe">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>corr_coeff, p_value <span class="op">=</span> pearsonr(df[<span class="st">&#39;GrLivArea&#39;</span>], df[<span class="st">&#39;SalePrice&#39;</span>])</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(corr_coeff, p_value)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0.7067799209766279 0.0
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="yR9yPXxL6hnl">
+<p>By conducting a pearson correlation test, we can quantify our results
+and see if there is actually a strong positive linear relationship
+between the concerned variables. Our results indicate that the
+correlation coefficient is 0.7. Since the correlation coefficient is
+close to 1, we can conclude that there is indeed a strong positive
+linear relationship between the Above Ground Living Area of the House
+and its Sale Price. Our results also show that we got a p-value of 0,
+which is less than the significance level (alpha=0.05). Since our
+p-value is very low, the probability of observing the data under the
+assumption of the null hypothesis is very low. This suggests there is
+strong evidence against our null hypothesis and that there is a strong
+linear correlation between the Above Ground Living Area and the Sales
+Price of the House.</p>
+</div>
+<div class="cell markdown" id="q8tm6jr86ktr">
+<p>The scatterplot confirms the conclusion above</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:489}"
+id="PsjNq-tj6m-M" data-outputId="9e6adf33-79f4-417d-cfcc-eadd812be2d8">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(x<span class="op">=</span>df[<span class="st">&#39;GrLivArea&#39;</span>], y<span class="op">=</span>df[<span class="st">&#39;SalePrice&#39;</span>], linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Sale Price vs Living Area&#39;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Living Area (sq ft)&quot;</span>)<span class="op">;</span> plt.ylabel(<span class="st">&quot;Sale Price ($)&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="44">
+<pre><code>Text(0, 0.5, &#39;Sale Price ($)&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/8fd5f3cacacbaf84c554e42b4241de4618a667eb.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="KZ1Uh-5W_IMM">
+<p>Note: According to the figure above, there are five outliers that we
+will address during data preprocessing.</p>
+</div>
+<div class="cell markdown" id="wcyB4oHV7UjW">
+<p>Next, we want to actually test and quantify if the overall quality is
+significantly associated with the sale price. To assess the strength of
+this association, we can perform an ANOVA test. This is because the
+Overall Quality is a categorical variable with values from 1 to 10, and
+we're interested in comparing the means of sale prices across these
+categories.</p>
+<p>ANOVA Test Hypothesis</p>
+<ul>
+<li>Null Hypothesis (H0): The mean sale prices are equal across all
+levels of Overall Quality</li>
+<li>Alternative Hypothesis (H1): At least one level of Overall Quality
+has a mean sale price that is different from the others.</li>
+</ul>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="TSljH-Gk7WQ-" data-outputId="131020c3-7bf2-4c11-9d49-b701d360cd06">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># first group the sale prices by the different values of Overall Qual.</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>groups <span class="op">=</span> []</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> quality <span class="kw">in</span> <span class="bu">sorted</span>(df[<span class="st">&#39;OverallQual&#39;</span>].unique()):</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    groups.append(df[df[<span class="st">&#39;OverallQual&#39;</span>] <span class="op">==</span> quality][<span class="st">&#39;SalePrice&#39;</span>])</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Performing one-way ANOVA test</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>f_stat, p_value <span class="op">=</span> f_oneway(<span class="op">*</span>groups)</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;F-Statistic: </span><span class="sc">{</span>f_stat<span class="sc">}</span><span class="ss">, P-value: </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>F-Statistic: 765.2200842729998, P-value: 0.0
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="GxZTklyO7z8q">
+<p>Our results indicate that the F-Statistic value is about 765.22 and
+the p-value is approximately 0.</p>
+<p>The F-statistic is a measure of the ratio of between-group variance
+to the within-group variance. Our F-Statistic indicates that the the
+difference in sale prices across the different levels of Overall Quality
+is much greater than the variance of sale prices within each level of
+Overall Quality. This suggests a strong effect of house quality on sale
+prices.</p>
+<p>A p-value of 0.0 indicates that the observed data would be highly
+unlikely under the null hypothesis. Our p-value is less than the
+significance level. Based on the p-value and a significance level of
+alpha = 0.05, we have evidence to reject the null hypothesis and
+conclude that the overall quality of the house has a statistically
+significant effect on the sale price.</p>
+</div>
+<div class="cell markdown" id="bMTjw5GK71QK">
+<p>To confirm the above conclusion, we can see that there is a positive
+correlation between the Overall Quality of the house (1 - 10 rating
+scale) and its Sale Price. According to the data documentation, overall
+quality rates the overall material and finish of the house:</p>
+<pre><code>   10	Very Excellent
+   9	Excellent
+   8	Very Good
+   7	Good
+   6	Above Average
+   5	Average
+   4	Below Average
+   3	Fair
+   2	Poor
+   1	Very Poor</code></pre>
+<p>Generally, as the Overall Quality increases, the Sale Price increases
+too. The fact that the overall quality rating of the house has a very
+strong positive correlation with the sale price of the house implies
+that this variable will be very important when predicting the sale
+price.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:489}"
+id="fNN6gQpm74VJ" data-outputId="0a486943-ec4b-458e-8502-7e13ea446f4f">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(x<span class="op">=</span>df[<span class="st">&#39;OverallQual&#39;</span>], y<span class="op">=</span>df[<span class="st">&#39;SalePrice&#39;</span>], linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Sale Price vs Overall Quality&#39;</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Overall Quality&quot;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Sale Price ($)&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="46">
+<pre><code>Text(0, 0.5, &#39;Sale Price ($)&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/8ba44db2bc1e3873af1fa8fa4418b583e5ff1f52.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="d-bYNHNJ8JLp">
+<p>Given our ANOVA test results between SalePrice and Overall Qual
+(Overall Quality) with a p-value of 0.0, it's clear there's a
+statistically significant difference in sale prices across different
+levels of overall quality. Let's proceed with the Tukey's Honestly
+Significant Difference (HSD) test to conduct a posthoc analysis. This
+test will help us determine which specific levels of overall quality
+significantly differ from each other in terms of sale price.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="OdwJCfR48PMV" data-outputId="fce475a7-0523-423e-bb03-d277825ec736">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>tukey_results <span class="op">=</span> pairwise_tukeyhsd(endog<span class="op">=</span>df[<span class="st">&#39;SalePrice&#39;</span>], groups<span class="op">=</span>df[<span class="st">&#39;OverallQual&#39;</span>], alpha<span class="op">=</span><span class="fl">0.05</span>)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(tukey_results)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>tukey_results.plot_simultaneous(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))    <span class="co"># Adjust the figure size as needed</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      Multiple Comparison of Means - Tukey HSD, FWER=0.05      
+===============================================================
+group1 group2   meandiff  p-adj     lower       upper    reject
+---------------------------------------------------------------
+     1      2   3600.3077    1.0 -75434.8443  82635.4596  False
+     1      3   34460.975 0.8905 -38026.6466 106948.5966  False
+     1      4  57760.0973 0.2072 -11963.0858 127483.2805  False
+     1      5  86027.5164 0.0034  16745.9339 155309.0989   True
+     1      6 113405.3183    0.0  44102.5034 182708.1332   True
+     1      7 156300.7608    0.0  86957.2901 225644.2315   True
+     1      8 222188.5943    0.0 152680.5424 291696.6462   True
+     1      9 319611.7664    0.0 249217.5289 390006.0038   True
+     1     10 401492.3226    0.0 328054.3492 474930.2959   True
+     2      3  30860.6673 0.4471 -13269.3164   74990.651  False
+     2      4  54159.7897 0.0006  14734.8935  93584.6858   True
+     2      5  82427.2087    0.0  43788.6549 121065.7624   True
+     2      6 109805.0106    0.0  71128.3986 148481.6226   True
+     2      7 152700.4531    0.0  113951.039 191449.8672   True
+     2      8 218588.2866    0.0 179545.1124 257631.4607   True
+     2      9 316011.4587    0.0 275411.5963 356611.3211   True
+     2     10 397892.0149    0.0  352217.776 443566.2538   True
+     3      4  23299.1223 0.0589   -412.1089  47010.3536  False
+     3      5  51566.5414    0.0  29187.1337   73945.949   True
+     3      6  78944.3433    0.0  56499.2912 101389.3954   True
+     3      7 121839.7858    0.0  99269.5147 144410.0569   True
+     3      8 187727.6193    0.0 164656.6527 210798.5858   True
+     3      9 285150.7914    0.0 259533.4364 310768.1463   True
+     3     10 367031.3476    0.0 333955.1304 400107.5648   True
+     4      5   28267.419    0.0  17889.3234  38645.5146   True
+     4      6   55645.221    0.0  45126.3168  66164.1251   True
+     4      7  98540.6635    0.0  87757.1519  109324.175   True
+     4      8 164428.4969    0.0 152632.8843 176224.1096   True
+     4      9  261851.669    0.0 245630.8226 278072.5154   True
+     4     10 343732.2252    0.0 317257.6501 370206.8003   True
+     5      6  27377.8019    0.0  20359.0597  34396.5442   True
+     5      7  70273.2444    0.0  62863.8235  77682.6654   True
+     5      8 136161.0779    0.0 127343.3755 144978.7804   True
+     5      9   233584.25    0.0 219381.0371 247787.4629   True
+     5     10 315464.8062    0.0 290176.1027 340753.5097   True
+     6      7  42895.4425    0.0    35290.05   50500.835   True
+     6      8  108783.276    0.0  99800.2724 117766.2795   True
+     6      9  206206.448    0.0 191900.0253 220512.8708   True
+     6     10 288087.0043    0.0 262740.1898 313433.8187   True
+     7      8  65887.8335    0.0  56596.3789  75179.2881   True
+     7      9 163311.0056    0.0 148808.9192 177813.0919   True
+     7     10 245191.5618    0.0 219733.7972 270649.3264   True
+     8      9  97423.1721    0.0  82153.5006 112692.8435   True
+     8     10 179303.7283    0.0 153401.0231 205206.4335   True
+     9     10  81880.5562    0.0  53686.0618 110075.0506   True
+---------------------------------------------------------------
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="47">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/bb88e3973391d31dddc3aa8554a0e8e4fd94811f.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/bb88e3973391d31dddc3aa8554a0e8e4fd94811f.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="NcJsmOWn8nrY">
+<p>The Tukey's Honestly Significant Difference (HSD) test results
+provide detailed comparisons between pairs of Overall Qual levels in
+terms of their effect on SalePrice.</p>
+<ul>
+<li><p>group1 and group2: The levels of Overall Qual being
+compared.</p></li>
+<li><p>meandiff: The difference in average SalePrice between the two
+groups (group2 minus group1).</p></li>
+<li><p>p-adj: The adjusted p-value for the comparison. A value below
+0.05 typically indicates a statistically significant difference in the
+average SalePrice between the two levels of Overall Qual.</p></li>
+<li><p>lower and upper: The bounds of the 95% confidence interval for
+the difference in means. If this interval does not include zero, it
+suggests a significant difference.</p></li>
+<li><p>reject: Indicates whether the null hypothesis of no difference
+should be rejected (True) or not (False).</p></li>
+</ul>
+</div>
+<section id="data-cleaning" class="cell markdown" id="hd8GzWCwBdck">
+<h1>Data Cleaning</h1>
+</section>
+<div class="cell markdown" id="NYOgTH04Bhx4">
+<p>Let's see how much of our data is missing and which features are
+missing values.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:896}"
+id="LD2pzB2RIYcw" data-outputId="8ac34cbc-6506-4823-e278-9a6fcb39c7e9">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the number and percentage of missing values for each column</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>missing_values <span class="op">=</span> df.isna().<span class="bu">sum</span>()</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>missing_percentage <span class="op">=</span> (missing_values <span class="op">/</span> <span class="bu">len</span>(df)) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter out columns that actually have missing values</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>missing_data <span class="op">=</span> pd.DataFrame({<span class="st">&#39;Number of Missing Values&#39;</span>: missing_values, <span class="st">&#39;Percentage of Missing Values&#39;</span>: missing_percentage})</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>missing_data <span class="op">=</span> missing_data[missing_data[<span class="st">&#39;Number of Missing Values&#39;</span>] <span class="op">&gt;</span> <span class="dv">0</span>].sort_values(by<span class="op">=</span><span class="st">&#39;Number of Missing Values&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>missing_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="48">
+
+  <div id="df-22ff35bc-7ccd-4306-a5f2-3412f83554c7" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Number of Missing Values</th>
+      <th>Percentage of Missing Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PoolQC</th>
+      <td>2917</td>
+      <td>99.556314</td>
+    </tr>
+    <tr>
+      <th>MiscFeature</th>
+      <td>2824</td>
+      <td>96.382253</td>
+    </tr>
+    <tr>
+      <th>Alley</th>
+      <td>2732</td>
+      <td>93.242321</td>
+    </tr>
+    <tr>
+      <th>Fence</th>
+      <td>2358</td>
+      <td>80.477816</td>
+    </tr>
+    <tr>
+      <th>MasVnrType</th>
+      <td>1775</td>
+      <td>60.580205</td>
+    </tr>
+    <tr>
+      <th>FireplaceQu</th>
+      <td>1422</td>
+      <td>48.532423</td>
+    </tr>
+    <tr>
+      <th>LotFrontage</th>
+      <td>490</td>
+      <td>16.723549</td>
+    </tr>
+    <tr>
+      <th>GarageCond</th>
+      <td>159</td>
+      <td>5.426621</td>
+    </tr>
+    <tr>
+      <th>GarageQual</th>
+      <td>159</td>
+      <td>5.426621</td>
+    </tr>
+    <tr>
+      <th>GarageFinish</th>
+      <td>159</td>
+      <td>5.426621</td>
+    </tr>
+    <tr>
+      <th>GarageYrBlt</th>
+      <td>159</td>
+      <td>5.426621</td>
+    </tr>
+    <tr>
+      <th>GarageType</th>
+      <td>157</td>
+      <td>5.358362</td>
+    </tr>
+    <tr>
+      <th>BsmtExposure</th>
+      <td>83</td>
+      <td>2.832765</td>
+    </tr>
+    <tr>
+      <th>BsmtFinType2</th>
+      <td>81</td>
+      <td>2.764505</td>
+    </tr>
+    <tr>
+      <th>BsmtCond</th>
+      <td>80</td>
+      <td>2.730375</td>
+    </tr>
+    <tr>
+      <th>BsmtQual</th>
+      <td>80</td>
+      <td>2.730375</td>
+    </tr>
+    <tr>
+      <th>BsmtFinType1</th>
+      <td>80</td>
+      <td>2.730375</td>
+    </tr>
+    <tr>
+      <th>MasVnrArea</th>
+      <td>23</td>
+      <td>0.784983</td>
+    </tr>
+    <tr>
+      <th>BsmtHalfBath</th>
+      <td>2</td>
+      <td>0.068259</td>
+    </tr>
+    <tr>
+      <th>BsmtFullBath</th>
+      <td>2</td>
+      <td>0.068259</td>
+    </tr>
+    <tr>
+      <th>BsmtFinSF1</th>
+      <td>1</td>
+      <td>0.034130</td>
+    </tr>
+    <tr>
+      <th>GarageCars</th>
+      <td>1</td>
+      <td>0.034130</td>
+    </tr>
+    <tr>
+      <th>GarageArea</th>
+      <td>1</td>
+      <td>0.034130</td>
+    </tr>
+    <tr>
+      <th>TotalBsmtSF</th>
+      <td>1</td>
+      <td>0.034130</td>
+    </tr>
+    <tr>
+      <th>BsmtUnfSF</th>
+      <td>1</td>
+      <td>0.034130</td>
+    </tr>
+    <tr>
+      <th>BsmtFinSF2</th>
+      <td>1</td>
+      <td>0.034130</td>
+    </tr>
+    <tr>
+      <th>Electrical</th>
+      <td>1</td>
+      <td>0.034130</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-22ff35bc-7ccd-4306-a5f2-3412f83554c7')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-22ff35bc-7ccd-4306-a5f2-3412f83554c7 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-22ff35bc-7ccd-4306-a5f2-3412f83554c7');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-09a4591c-88fe-4dc3-8833-af64d44cd5c4">
+  <button class="colab-df-quickchart" onclick="quickchart('df-09a4591c-88fe-4dc3-8833-af64d44cd5c4')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-09a4591c-88fe-4dc3-8833-af64d44cd5c4 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="BGTppZr1Ia8t">
+<p>We have 25 features that have missing values.</p>
+</div>
+<div class="cell markdown" id="8wM2bAgxJtZN">
+<p>If Pool QC is NA, that means the hosue has No Pool</p>
+<p>If Misc Feature is NA, that means the house has No Feature</p>
+<p>If Alley is NA, that means the house has No Alley</p>
+<p>If Fence is NA, that means the house has No Fence</p>
+<p>If Fireplace is NA, that means the house has No Fireplace</p>
+</div>
+<div class="cell code" id="VxWcNja0KCcp">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;PoolQC&#39;</span>].fillna(<span class="st">&#39;No Pool&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;MiscFeature&#39;</span>].fillna(<span class="st">&#39;No Feature&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Alley&#39;</span>].fillna(<span class="st">&#39;No Alley&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Fence&#39;</span>].fillna(<span class="st">&#39;No Fence&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;FireplaceQu&#39;</span>].fillna(<span class="st">&#39;No Fireplace&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="LBkdE9hlKNbj">
+<p>Lot Frontage is the linear length of street connected to the house.
+Any missing values indicates that the house is not connected to any
+street. So fill in missing values with 0 ft of street length</p>
+<p>NA values in GarageCars and GarageArea means that the house does not
+have a garage. So impute missing values with 0</p>
+</div>
+<div class="cell code" id="p1-EOTD2KtoP">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;LotFrontage&#39;</span>].fillna(<span class="dv">0</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;GarageCars&#39;</span>].fillna(<span class="dv">0</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;GarageArea&#39;</span>].fillna(<span class="dv">0</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="GG9gdcziVmIc">
+<p>Impute GarageYrBlt with YearBuilt</p>
+</div>
+<div class="cell code" id="fHrWandqVo_q">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;GarageYrBlt&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;GarageYrBlt&#39;</span>].fillna(df[<span class="st">&#39;YearBuilt&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell markdown" id="-YBOzJsnK3dk">
+<p>The Electrical column has 1 missing value so use a mode
+imputation</p>
+</div>
+<div class="cell code" id="WW_zTjZULsso">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Electrical&#39;</span>].fillna(df[<span class="st">&#39;Electrical&#39;</span>].mode()[<span class="dv">0</span>], inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="6Xw6NtuoOLRj">
+<p>Impute missing values for Mas Vnr Type with None (according to
+dataset documentation, this means no masonry veneer) and Mas Vnr Area
+with 0</p>
+</div>
+<div class="cell code" id="tRzlNkZPOOJS">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;MasVnrArea&#39;</span>].fillna(<span class="dv">0</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;MasVnrType&#39;</span>].fillna(<span class="st">&quot;None&quot;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="U9uTIZOuOSX6">
+<p>For, Garage Cond, Garage Qual, Garage Finish, and Garage Type,
+missing values mean that the house lacks a garage. We know 157 houses
+are without garages. However, there's a discrepancy for two properties
+where all garage-related columns except for Garage Type are missing
+values. Garage Type entries for these two properties may be inaccurate,
+assuming there is no garage. We must specifically update the Garage Type
+column for these two entries to "No Garage."</p>
+</div>
+<div class="cell code" id="WB1eaEZQOZk7">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>df.loc[<span class="op">~</span>pd.isna(df[<span class="st">&#39;GarageType&#39;</span>]) <span class="op">&amp;</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>            pd.isna(df[<span class="st">&#39;GarageQual&#39;</span>]), <span class="st">&quot;GarageType&quot;</span>] <span class="op">=</span> <span class="st">&quot;No Garage&quot;</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="2pJjRL1yOd8h">
+<p>Impute No Garage into the missing values of all other categorical
+Garage columns for the other 157 records</p>
+</div>
+<div class="cell code" id="LeQeka_EOgZd">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> [<span class="st">&#39;GarageType&#39;</span>, <span class="st">&#39;GarageFinish&#39;</span>, <span class="st">&#39;GarageQual&#39;</span>, <span class="st">&#39;GarageCond&#39;</span>]:</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    df[col].fillna(<span class="st">&#39;No Garage&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="F0y8jRhgOkO1">
+<p>According to dataset documentation, if Bsmt Exposure, BsmtFin Type 2,
+BsmtFin Type 1, Bsmt Qual, or Bsmt Cond is missing, the house has no
+basement. There are 83 rows where at least one of these columns is NA.
+Among these rows, there are 3 rows where Bsmt Exposure is null while
+BsmtFin Type 1, Bsmt Qual, and Bsmt Cond are not null</p>
+<p>For these 3 rows, fill in missing values for Bsmt Exposure with No to
+indicate No Exposure</p>
+</div>
+<div class="cell code" id="l64fjYH0OtRx">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>bsmt_rows_to_update <span class="op">=</span> df[(df[<span class="st">&#39;BsmtExposure&#39;</span>].isna()) <span class="op">&amp;</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>                         (df[<span class="st">&#39;BsmtFinType1&#39;</span>].notna()) <span class="op">&amp;</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>                         (df[<span class="st">&#39;BsmtQual&#39;</span>].notna()) <span class="op">&amp;</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>                         (df[<span class="st">&#39;BsmtCond&#39;</span>].notna())]</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>df.loc[bsmt_rows_to_update.index, <span class="st">&#39;BsmtExposure&#39;</span>] <span class="op">=</span> <span class="st">&#39;No&#39;</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="7TU9UQY3OyDG">
+<p>There is also one row where BsmtFin Type 2 is null while BsmtFin Type
+1, Bsmt Qual, and Bsmt Cond are not null. For this row, fill in missing
+values for BsmtFin Type 2 with Unf to indicate Unfinished</p>
+</div>
+<div class="cell code" id="CxH03wzHOztP">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>bsmt_type2_row_to_update <span class="op">=</span> df[(df[<span class="st">&#39;BsmtFinType2&#39;</span>].isna()) <span class="op">&amp;</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>                              (df[<span class="st">&#39;BsmtFinType1&#39;</span>].notna()) <span class="op">&amp;</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>                              (df[<span class="st">&#39;BsmtQual&#39;</span>].notna()) <span class="op">&amp;</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>                              (df[<span class="st">&#39;BsmtCond&#39;</span>].notna())]</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>df.loc[bsmt_type2_row_to_update.index, <span class="st">&#39;BsmtFinType2&#39;</span>] <span class="op">=</span> <span class="st">&#39;Unf&#39;</span></span></code></pre></div>
+</div>
+<div class="cell markdown" id="anvT8od2O4O7">
+<p>Impute missing values for Bsmt Half Bath, Bsmt Full Bath, Total Bsmt
+SF, Bsmt Unf SF, BsmtFin SF 2, and BsmtFin SF 1 with 0.</p>
+</div>
+<div class="cell code" id="W39AHAXOO6NU">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> [<span class="st">&quot;BsmtHalfBath&quot;</span>, <span class="st">&quot;BsmtFullBath&quot;</span>, <span class="st">&quot;TotalBsmtSF&quot;</span>,</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;BsmtUnfSF&quot;</span>, <span class="st">&quot;BsmtFinSF2&quot;</span>, <span class="st">&quot;BsmtFinSF1&quot;</span>]:</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    df[col].fillna(<span class="dv">0</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="r8t880DKPAnF">
+<p>For the other 80 rows in which Bsmt Exposure, BsmtFin Type 2, BsmtFin
+Type 1, Bsmt Qual, or Bsmt Cond is missing, fill in these values with No
+Basement</p>
+</div>
+<div class="cell code" id="1f6BxlECPDDQ">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> [<span class="st">&quot;BsmtExposure&quot;</span>, <span class="st">&quot;BsmtFinType2&quot;</span>,</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;BsmtFinType1&quot;</span>, <span class="st">&quot;BsmtQual&quot;</span>, <span class="st">&quot;BsmtCond&quot;</span>]:</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    df[col].fillna(<span class="st">&quot;No Basement&quot;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="7LMlJ5P_MlZ-">
+<p>Let's ensure there are no more missing values.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="W_Uq5rEzMpD3" data-outputId="3788624e-14a8-4fcb-8b30-1925e66530e9">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>df.isna().values.<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="60">
+<pre><code>0</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="3W9mhx8mPkIN">
+<p>De Cock (2011) states that there are 5 outliers in the dataset
+specifically in SalePrice vs Living Area. We also noticed this during
+our EDA.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:564}"
+id="4adfdPflPnN8" data-outputId="715b030c-5451-416b-fae3-d03af883f9e5">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting SalePrice vs GrLivArea to visualize the outliers</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>plt.scatter(df[<span class="st">&#39;GrLivArea&#39;</span>], df[<span class="st">&#39;SalePrice&#39;</span>], alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Sale Price vs. Living Area&#39;</span>)</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Living Area (sq ft)&#39;</span>)</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Sale Price ($)&#39;</span>)</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/c398b04c54d0a65e1847b516e1e5abd2a8fddf11.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="YgTYH4PwP4Ll">
+<p>We can see these 5 outliers. They are values where Living Area
+exceeds 4000. So let's remove them and reset row indices because we are
+deleting rows</p>
+</div>
+<div class="cell code" id="B2cMQ2oQP6j5">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df[df[<span class="st">&quot;GrLivArea&quot;</span>] <span class="op">&lt;</span> <span class="dv">4000</span>]</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>df.reset_index(drop<span class="op">=</span><span class="va">True</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<section id="feature-engineering" class="cell markdown"
+id="4zmLsVqyQBA3">
+<h1>Feature Engineering</h1>
+<p>We can derive some features from our existing ones to increase model
+performance.</p>
+</section>
+<div class="cell markdown" id="l_lDCQI9XrZd">
+<p>Let's start off with some numerical features</p>
+<ul>
+<li>TotalSqFeet can sum up the total square footage of the basement
+(TotalBsmtSF), first floor (1stFlrSF), and second floor (2ndFlrSF). By
+combining these areas, we provide a single comprehensive measure of the
+size of the house, which can be more informative than individual area
+measurements for predicting house prices.</li>
+<li>TotalBathrooms can calculate the total number of bathrooms,
+including half bathrooms (weighted as 0.5) across the house. Bathrooms
+are a significant factor in home valuation. This combined metric
+provides a clear, overall picture of the bathroom amenities in a home,
+which is typically more relevant than counting full and half bathrooms
+separately.</li>
+<li>HouseAge can be calculated as the difference between the year the
+house was sold (YrSold) and the year it was built (YearBuilt). Older
+houses might have different valuation characteristics due to factors
+like architectural style, wear and tear, and historical value. This
+feature helps capture that aspect.</li>
+<li>IsNew can be a binary feature that indicates if the house was sold
+in the same year it was built. Newly built houses might be more
+attractive due to modern designs and materials, and this feature helps
+to isolate such properties.</li>
+<li>SqFtPerRoom could represent the average square footage per room by
+dividing the gross living area (GrLivArea) by the total number of rooms
+above grade plus bathrooms and kitchens. It provides a normalized
+measure of room spaciousness.</li>
+<li>TotalHomeQuality can be the sum of the overall quality (OverallQual)
+and overall condition (OverallCond) of the house. This score can give a
+quick insight into the overall status and quality of the house.</li>
+<li>HighQualSF can sum the square footage of the first and second
+floors. Higher quality living area typically found on main floors can be
+more desirable than basement or lower quality space.</li>
+</ul>
+</div>
+<div class="cell code" id="KGTWgsQrX4Eu">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;TotalSqFeet&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;TotalBsmtSF&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;1stFlrSF&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;2ndFlrSF&#39;</span>]</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;TotalBathrooms&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;FullBath&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;BsmtFullBath&#39;</span>] <span class="op">+</span> <span class="fl">0.5</span> <span class="op">*</span> (df[<span class="st">&#39;HalfBath&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;BsmtHalfBath&#39;</span>])</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;HouseAge&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;YrSold&#39;</span>] <span class="op">-</span> df[<span class="st">&#39;YearBuilt&#39;</span>]</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;IsNew&#39;</span>] <span class="op">=</span> np.where(df[<span class="st">&#39;YrSold&#39;</span>] <span class="op">==</span> df[<span class="st">&#39;YearBuilt&#39;</span>], <span class="dv">1</span>, <span class="dv">0</span>)</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;SqFtPerRoom&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;GrLivArea&#39;</span>] <span class="op">/</span> (df[<span class="st">&#39;TotRmsAbvGrd&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;FullBath&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;HalfBath&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;KitchenAbvGr&#39;</span>])</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;TotalHomeQuality&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;OverallQual&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;OverallCond&#39;</span>]</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;HighQualSF&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;1stFlrSF&#39;</span>] <span class="op">+</span> df[<span class="st">&#39;2ndFlrSF&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="wNx9BA0g4YXd">
+<p>When creating new features, it's a good practice to drop original
+columns that may now be redundant or highly correlated with the new
+features to avoid multicollinearity. This prevents overcomplicating the
+model and preventing overfitting in our future regression models.</p>
+</div>
+<div class="cell code" id="0mxlyb724cFa">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List of columns to drop after creating new features</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>columns_to_drop <span class="op">=</span> [</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;TotalBsmtSF&#39;</span>, <span class="st">&#39;1stFlrSF&#39;</span>, <span class="st">&#39;2ndFlrSF&#39;</span>,     <span class="co"># Areas included in TotalSqFeet and HighQualSF</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;FullBath&#39;</span>, <span class="st">&#39;BsmtFullBath&#39;</span>, <span class="st">&#39;HalfBath&#39;</span>, <span class="st">&#39;BsmtHalfBath&#39;</span>,  <span class="co"># Components of TotalBathrooms</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;YrSold&#39;</span>,    <span class="co"># Used in calculating HouseAge and IsNew, YearBuilt is kept for potential other uses</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;OverallQual&#39;</span>, <span class="st">&#39;OverallCond&#39;</span>,  <span class="co"># Combined into TotalHomeQuality</span></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;GrLivArea&#39;</span>, <span class="st">&#39;TotRmsAbvGrd&#39;</span>, <span class="st">&#39;KitchenAbvGr&#39;</span>  <span class="co"># Used in calculating SqFtPerRoom</span></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Dropping the columns</span></span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>df.drop(columns<span class="op">=</span>columns_to_drop, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="wNIrB-8sYmAM">
+<p>Now let's handle categorical features</p>
+<ul>
+<li>Let's convert numeric categorical variables to strings. Such fields
+are MSSubClass, YrSold, and MoSold. These fields represent categories.
+Converting these to strings prevents any mistaken interpretation as
+ordinal or interval data potentially misleading models.</li>
+<li>We will perform label encoding on various fields like Alley,
+BsmtQual, etc. Many machine learning models require input features to be
+numeric. Label encoding transforms categorical labels into a numeric
+format while preserving the order.</li>
+<li>We will perform one-hot encoding. This will converts categorical
+variable entries into a series of binary (0 or 1) columns. This is
+necessary for models that only accept numerical input and ensures that
+the model interprets the categorical data correctly without assuming
+ordinality.</li>
+</ul>
+</div>
+<div class="cell code" id="RHPo_bDRYuKb">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Handling categorical variables that are numeric</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>to_factor_cols <span class="op">=</span> [<span class="st">&#39;MSSubClass&#39;</span>, <span class="st">&#39;MoSold&#39;</span>]</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> to_factor_cols:</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    df[col] <span class="op">=</span> df[col].<span class="bu">apply</span>(<span class="bu">str</span>)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Label Encoding to ordinal categorical columns</span></span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>label_encoding_cols <span class="op">=</span> [</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;Alley&quot;</span>, <span class="st">&quot;BsmtCond&quot;</span>, <span class="st">&quot;BsmtExposure&quot;</span>, <span class="st">&quot;BsmtFinType1&quot;</span>, <span class="st">&quot;BsmtFinType2&quot;</span>,</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;BsmtQual&quot;</span>, <span class="st">&quot;ExterCond&quot;</span>, <span class="st">&quot;ExterQual&quot;</span>, <span class="st">&quot;FireplaceQu&quot;</span>, <span class="st">&quot;Functional&quot;</span>,</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;GarageCond&quot;</span>, <span class="st">&quot;GarageQual&quot;</span>, <span class="st">&quot;HeatingQC&quot;</span>, <span class="st">&quot;KitchenQual&quot;</span>, <span class="st">&quot;LandSlope&quot;</span>,</span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;LotShape&quot;</span>, <span class="st">&quot;PavedDrive&quot;</span>, <span class="st">&quot;PoolQC&quot;</span>, <span class="st">&quot;Street&quot;</span>, <span class="st">&quot;Utilities&quot;</span></span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a>label_encoder <span class="op">=</span> LabelEncoder()</span>
+<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> label_encoding_cols:</span>
+<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a>    df[col] <span class="op">=</span> label_encoder.fit_transform(df[col].astype(<span class="bu">str</span>))</span>
+<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating dummy variables from categorical features</span></span>
+<span id="cb43-18"><a href="#cb43-18" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.get_dummies(df)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="MrlKRt2nZXtH">
+<p>Some of our features may be skewed.</p>
+<ul>
+<li>A distribution is highly skewed if |skewness| &gt; 1</li>
+<li>A distribution is moderately skewed if |skewness| &gt; 0.5</li>
+<li>A distribution is approximately symetrix if |skewness| &lt; 0.5</li>
+</ul>
+<p>Our problem is a regression task, which relies on a normal
+distribution assumption. Let's identify skewed features and normalize
+them. Recall from EDA, sale price is skewed, so let's start off with
+that.</p>
+</div>
+<div class="cell code" id="vrjR04EtZsTT">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a function to plot the distribution of any feature</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> normality_plot(feature, feature_name):</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>    fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Distribution Plot</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>    sns.distplot(feature, fit<span class="op">=</span>norm, ax<span class="op">=</span>axes[<span class="dv">0</span>])</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">0</span>].set_title(<span class="ss">f&#39;</span><span class="sc">{</span>feature_name<span class="sc">}</span><span class="ss"> Distribution Plot&#39;</span>)</span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">0</span>].set_xlabel(feature_name)  <span class="co"># Setting the x-axis title</span></span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">0</span>].ticklabel_format(style<span class="op">=</span><span class="st">&#39;sci&#39;</span>, axis<span class="op">=</span><span class="st">&#39;x&#39;</span>, scilimits<span class="op">=</span>(<span class="dv">0</span>,<span class="dv">0</span>))  <span class="co"># Scientific notation</span></span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-11"><a href="#cb44-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Probability Plot</span></span>
+<span id="cb44-12"><a href="#cb44-12" aria-hidden="true" tabindex="-1"></a>    stats.probplot(feature, dist<span class="op">=</span><span class="st">&quot;norm&quot;</span>, plot<span class="op">=</span>axes[<span class="dv">1</span>])</span>
+<span id="cb44-13"><a href="#cb44-13" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">1</span>].set_title(<span class="ss">f&#39;Probability Plot&#39;</span>)</span>
+<span id="cb44-14"><a href="#cb44-14" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">1</span>].set_xlabel(<span class="st">&#39;Theoretical quantiles&#39;</span>)  <span class="co"># Setting the x-axis title</span></span>
+<span id="cb44-15"><a href="#cb44-15" aria-hidden="true" tabindex="-1"></a>    axes[<span class="dv">1</span>].get_lines()[<span class="dv">1</span>].set_color(<span class="st">&#39;red&#39;</span>)  <span class="co"># Ensuring the regression line is red</span></span>
+<span id="cb44-16"><a href="#cb44-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-17"><a href="#cb44-17" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb44-18"><a href="#cb44-18" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:507}"
+id="PVsW2urQZ4gC" data-outputId="0ade5cc1-367a-40ac-da07-3f2f06a3a738">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>normality_plot(df[<span class="st">&#39;SalePrice&#39;</span>], <span class="st">&#39;Sale Price ($)&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/3490b9128727832d47b7eb281ec904440395348d.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="QHfOUXo4E4ww">
+<p>Let's analyze the plots above. The left one displays the distribution
+of the SalePrice. The histogram (blue bars) represents the frequency of
+data points within specific intervals. On top of the histogram is a
+kernel density estimate (KDE) curve (blue line) that estimates the
+probability density function of the variable. The black curve represents
+the normal distribution curve, which is a theoretical distribution that
+the data should follow if it were perfectly normal. By comparing the
+histogram and KDE to the normal curve, we can visually assess how close
+the data comes to a normal distribution. Deviations from the normal
+curve suggest deviations from normality. The plot on the right is a Q-Q
+plot. It compares the quantiles of the actual data against the quantiles
+of a theoretical normal distribution. The data points (blue dots) are
+plotted against the expected values if the data were normally
+distributed. The red line represents where the points would lie if the
+data were perfectly normal. This plot is a more direct method to check
+for normality. If the data points closely follow the red line, the data
+are likely normal. Our Q-Q plot shows significant deviations from this
+line. This suggests our sale price might be skewed or have outliers.</p>
+</div>
+<div class="cell markdown" id="vu3248leaDb9">
+<p>Let's see if any other features are skewed.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="r7cQn21taHLQ" data-outputId="5e45fc35-7799-40c8-8bdd-71710597f9f3">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>skewness <span class="op">=</span> df.skew().sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>skewed_cols <span class="op">=</span> skewness[<span class="bu">abs</span>(skewness) <span class="op">&gt;</span> <span class="fl">0.5</span>].index</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>skewed_cols.tolist()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="68">
+<pre><code>[&#39;Heating_Floor&#39;,
+ &#39;Exterior1st_PreCast&#39;,
+ &#39;RoofMatl_Membran&#39;,
+ &#39;Exterior2nd_PreCast&#39;,
+ &#39;RoofMatl_Metal&#39;,
+ &#39;MSSubClass_150&#39;,
+ &#39;RoofMatl_Roll&#39;,
+ &#39;Neighborhood_Landmrk&#39;,
+ &#39;MiscFeature_TenC&#39;,
+ &#39;Exterior1st_ImStucc&#39;,
+ &#39;Condition2_RRAe&#39;,
+ &#39;Exterior2nd_Other&#39;,
+ &#39;Electrical_Mix&#39;,
+ &#39;SaleType_VWD&#39;,
+ &#39;MasVnrType_CBlock&#39;,
+ &#39;Condition2_RRAn&#39;,
+ &#39;Neighborhood_GrnHill&#39;,
+ &#39;MSZoning_I (all)&#39;,
+ &#39;Exterior1st_Stone&#39;,
+ &#39;MSZoning_A (agr)&#39;,
+ &#39;Exterior1st_CBlock&#39;,
+ &#39;Exterior1st_AsphShn&#39;,
+ &#39;Condition2_RRNn&#39;,
+ &#39;Heating_OthW&#39;,
+ &#39;Utilities&#39;,
+ &#39;Exterior2nd_CBlock&#39;,
+ &#39;Condition2_PosN&#39;,
+ &#39;Condition2_PosA&#39;,
+ &#39;MiscFeature_Othr&#39;,
+ &#39;Exterior2nd_AsphShn&#39;,
+ &#39;Condition2_Artery&#39;,
+ &#39;MiscFeature_Gar2&#39;,
+ &#39;SaleType_Con&#39;,
+ &#39;Foundation_Wood&#39;,
+ &#39;RoofStyle_Shed&#39;,
+ &#39;MiscVal&#39;,
+ &#39;Exterior2nd_Stone&#39;,
+ &#39;Condition1_RRNe&#39;,
+ &#39;RoofMatl_WdShngl&#39;,
+ &#39;Heating_Wall&#39;,
+ &#39;MSSubClass_40&#39;,
+ &#39;Exterior1st_BrkComm&#39;,
+ &#39;SaleType_Oth&#39;,
+ &#39;Electrical_FuseP&#39;,
+ &#39;HouseStyle_2.5Fin&#39;,
+ &#39;Neighborhood_Greens&#39;,
+ &#39;SaleType_ConLw&#39;,
+ &#39;PoolArea&#39;,
+ &#39;RoofMatl_WdShake&#39;,
+ &#39;Heating_Grav&#39;,
+ &#39;Condition1_RRNn&#39;,
+ &#39;SaleType_ConLI&#39;,
+ &#39;Neighborhood_Blueste&#39;,
+ &#39;Foundation_Stone&#39;,
+ &#39;RoofStyle_Mansard&#39;,
+ &#39;Fence_MnWw&#39;,
+ &#39;SaleType_CWD&#39;,
+ &#39;SaleCondition_AdjLand&#39;,
+ &#39;Condition2_Feedr&#39;,
+ &#39;LotConfig_FR3&#39;,
+ &#39;Exterior2nd_ImStucc&#39;,
+ &#39;GarageType_CarPort&#39;,
+ &#39;LotArea&#39;,
+ &#39;MSSubClass_180&#39;,
+ &#39;MSSubClass_45&#39;,
+ &#39;HouseStyle_1.5Unf&#39;,
+ &#39;LowQualFinSF&#39;,
+ &#39;Condition1_PosA&#39;,
+ &#39;RoofStyle_Flat&#39;,
+ &#39;Exterior2nd_Brk Cmn&#39;,
+ &#39;RoofStyle_Gambrel&#39;,
+ &#39;3SsnPorch&#39;,
+ &#39;MSSubClass_75&#39;,
+ &#39;GarageType_2Types&#39;,
+ &#39;RoofMatl_Tar&amp;Grv&#39;,
+ &#39;Neighborhood_NPkVill&#39;,
+ &#39;Neighborhood_Veenker&#39;,
+ &#39;HouseStyle_2.5Unf&#39;,
+ &#39;SaleCondition_Alloca&#39;,
+ &#39;MSZoning_C (all)&#39;,
+ &#39;MasVnrType_BrkCmn&#39;,
+ &#39;SaleType_ConLD&#39;,
+ &#39;MSZoning_RH&#39;,
+ &#39;Heating_GasW&#39;,
+ &#39;Neighborhood_Blmngtn&#39;,
+ &#39;Condition1_RRAe&#39;,
+ &#39;Neighborhood_BrDale&#39;,
+ &#39;GarageType_Basment&#39;,
+ &#39;Neighborhood_MeadowV&#39;,
+ &#39;Exterior2nd_AsbShng&#39;,
+ &#39;Condition1_PosN&#39;,
+ &#39;Exterior1st_Stucco&#39;,
+ &#39;Neighborhood_ClearCr&#39;,
+ &#39;Exterior1st_AsbShng&#39;,
+ &#39;SaleCondition_Family&#39;,
+ &#39;Exterior2nd_Stucco&#39;,
+ &#39;Exterior2nd_BrkFace&#39;,
+ &#39;Neighborhood_SWISU&#39;,
+ &#39;MSSubClass_85&#39;,
+ &#39;Foundation_Slab&#39;,
+ &#39;Electrical_FuseF&#39;,
+ &#39;Condition1_RRAn&#39;,
+ &#39;Neighborhood_StoneBr&#39;,
+ &#39;Exterior1st_WdShing&#39;,
+ &#39;LandContour_Low&#39;,
+ &#39;MSSubClass_190&#39;,
+ &#39;BldgType_2fmCon&#39;,
+ &#39;Neighborhood_NoRidge&#39;,
+ &#39;Neighborhood_Timber&#39;,
+ &#39;Exterior2nd_Wd Shng&#39;,
+ &#39;HouseStyle_SFoyer&#39;,
+ &#39;LotConfig_FR2&#39;,
+ &#39;SaleType_COD&#39;,
+ &#39;Exterior1st_BrkFace&#39;,
+ &#39;Condition1_Artery&#39;,
+ &#39;Neighborhood_IDOTRR&#39;,
+ &#39;MiscFeature_Shed&#39;,
+ &#39;BldgType_Twnhs&#39;,
+ &#39;Neighborhood_Crawfor&#39;,
+ &#39;MoSold_12&#39;,
+ &#39;LandSlope&#39;,
+ &#39;Neighborhood_BrkSide&#39;,
+ &#39;MSSubClass_90&#39;,
+ &#39;BldgType_Duplex&#39;,
+ &#39;Fence_GdWo&#39;,
+ &#39;Neighborhood_Mitchel&#39;,
+ &#39;IsNew&#39;,
+ &#39;LandContour_Bnk&#39;,
+ &#39;Fence_GdPrv&#39;,
+ &#39;MSSubClass_80&#39;,
+ &#39;LandContour_HLS&#39;,
+ &#39;MoSold_1&#39;,
+ &#39;Exterior1st_CemntBd&#39;,
+ &#39;Exterior2nd_CmentBd&#39;,
+ &#39;Neighborhood_SawyerW&#39;,
+ &#39;HouseStyle_SLvl&#39;,
+ &#39;MSSubClass_70&#39;,
+ &#39;MSSubClass_160&#39;,
+ &#39;Neighborhood_NWAmes&#39;,
+ &#39;MoSold_2&#39;,
+ &#39;MSZoning_FV&#39;,
+ &#39;MSSubClass_30&#39;,
+ &#39;MoSold_11&#39;,
+ &#39;BsmtFinSF2&#39;,
+ &#39;Neighborhood_Sawyer&#39;,
+ &#39;EnclosedPorch&#39;,
+ &#39;ScreenPorch&#39;,
+ &#39;GarageFinish_No Garage&#39;,
+ &#39;GarageType_No Garage&#39;,
+ &#39;MoSold_9&#39;,
+ &#39;Condition1_Feedr&#39;,
+ &#39;Neighborhood_Gilbert&#39;,
+ &#39;Neighborhood_NridgHt&#39;,
+ &#39;MoSold_10&#39;,
+ &#39;LotConfig_CulDSac&#39;,
+ &#39;Neighborhood_Somerst&#39;,
+ &#39;GarageType_BuiltIn&#39;,
+ &#39;Electrical_FuseA&#39;,
+ &#39;SaleCondition_Abnorml&#39;,
+ &#39;Neighborhood_Edwards&#39;,
+ &#39;MSSubClass_120&#39;,
+ &#39;CentralAir_N&#39;,
+ &#39;Exterior1st_Plywood&#39;,
+ &#39;MoSold_3&#39;,
+ &#39;BldgType_TwnhsE&#39;,
+ &#39;MoSold_8&#39;,
+ &#39;SaleType_New&#39;,
+ &#39;Neighborhood_OldTown&#39;,
+ &#39;SaleCondition_Partial&#39;,
+ &#39;MasVnrType_Stone&#39;,
+ &#39;Neighborhood_CollgCr&#39;,
+ &#39;Exterior2nd_Plywood&#39;,
+ &#39;MoSold_4&#39;,
+ &#39;MSSubClass_50&#39;,
+ &#39;MasVnrArea&#39;,
+ &#39;Foundation_BrkTil&#39;,
+ &#39;HouseStyle_1.5Fin&#39;,
+ &#39;OpenPorchSF&#39;,
+ &#39;Fence_MnPrv&#39;,
+ &#39;MoSold_5&#39;,
+ &#39;Exterior2nd_Wd Sdng&#39;,
+ &#39;Exterior2nd_HdBoard&#39;,
+ &#39;Exterior1st_Wd Sdng&#39;,
+ &#39;Exterior1st_HdBoard&#39;,
+ &#39;Neighborhood_NAmes&#39;,
+ &#39;Exterior2nd_MetalSd&#39;,
+ &#39;MoSold_7&#39;,
+ &#39;Exterior1st_MetalSd&#39;,
+ &#39;MSZoning_RM&#39;,
+ &#39;WoodDeckSF&#39;,
+ &#39;MoSold_6&#39;,
+ &#39;LotConfig_Corner&#39;,
+ &#39;RoofStyle_Hip&#39;,
+ &#39;SalePrice&#39;,
+ &#39;MSSubClass_60&#39;,
+ &#39;GarageFinish_Fin&#39;,
+ &#39;GarageType_Detchd&#39;,
+ &#39;GarageFinish_RFn&#39;,
+ &#39;BsmtUnfSF&#39;,
+ &#39;HouseStyle_2Story&#39;,
+ &#39;MasVnrType_BrkFace&#39;,
+ &#39;HighQualSF&#39;,
+ &#39;BsmtFinSF1&#39;,
+ &#39;Fireplaces&#39;,
+ &#39;SqFtPerRoom&#39;,
+ &#39;TotalSqFeet&#39;,
+ &#39;Exterior2nd_VinylSd&#39;,
+ &#39;Exterior1st_VinylSd&#39;,
+ &#39;HouseAge&#39;,
+ &#39;MSSubClass_20&#39;,
+ &#39;TotalHomeQuality&#39;,
+ &#39;YearBuilt&#39;,
+ &#39;LotShape&#39;,
+ &#39;KitchenQual&#39;,
+ &#39;Alley&#39;,
+ &#39;LotConfig_Inside&#39;,
+ &#39;BsmtExposure&#39;,
+ &#39;MSZoning_RL&#39;,
+ &#39;RoofStyle_Gable&#39;,
+ &#39;Fence_No Fence&#39;,
+ &#39;SaleCondition_Normal&#39;,
+ &#39;BldgType_1Fam&#39;,
+ &#39;ExterQual&#39;,
+ &#39;Condition1_Norm&#39;,
+ &#39;SaleType_WD &#39;,
+ &#39;ExterCond&#39;,
+ &#39;LandContour_Lvl&#39;,
+ &#39;BsmtCond&#39;,
+ &#39;PavedDrive&#39;,
+ &#39;Electrical_SBrkr&#39;,
+ &#39;BsmtFinType2&#39;,
+ &#39;GarageQual&#39;,
+ &#39;CentralAir_Y&#39;,
+ &#39;GarageCond&#39;,
+ &#39;Functional&#39;,
+ &#39;MiscFeature_No Feature&#39;,
+ &#39;Heating_GasA&#39;,
+ &#39;RoofMatl_CompShg&#39;,
+ &#39;Condition2_Norm&#39;,
+ &#39;Street&#39;,
+ &#39;PoolQC&#39;]</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="lrimDgwKb9iP">
+<p>Let's normalize the skewed features with a log transformation.</p>
+</div>
+<div class="cell code" id="TCshSllCcBR5">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> skewed_cols:</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>    df[i] <span class="op">=</span> np.log(<span class="dv">1</span> <span class="op">+</span> df[i])</span></code></pre></div>
+</div>
+<div class="cell markdown" id="bWjoA-CVcLYs">
+<p>The skewness in sale price should be fixed now having a more normal
+distribution</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:507}"
+id="A4Z20BeCcUVu" data-outputId="75dded1f-0593-42ee-b2fd-13197aa954e5">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>normality_plot(df[<span class="st">&#39;SalePrice&#39;</span>], <span class="st">&#39;Log Sale Price&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/b7f42bfe326313830528fcb0b80b08c229470253.png" /></p>
+</div>
+</div>
+<section id="primary-analysis" class="cell markdown" id="-4NmdTNfes6Y">
+<h1>Primary Analysis</h1>
+</section>
+<div class="cell markdown" id="gwY52XnKevPY">
+<p>Let's split our dataset into a training set to fit our models and a
+test set to score the performance of our models.</p>
+</div>
+<div class="cell code" id="6N1B4A4ubxJC">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(<span class="st">&#39;SalePrice&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)  <span class="co"># Removes the target column from the feature set</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">&#39;SalePrice&#39;</span>]  <span class="co"># Only the target column</span></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="GgZkdmiHf7fc">
+<p><strong>What is Regression?</strong></p>
+<p>Regression is a statistical method used in machine learning to model
+and analyze the relationships between variables. It is useful when the
+goal is to predict a continuous outcome based on one or more predictor
+variables. In the context of predicting house prices, regression allows
+us to establish a relationship between the house price (the dependent
+variable) and various independent variables or features (like the size
+of the house, the number of bedrooms, location, etc.).</p>
+<p><strong>Why Use Regression for Predicting House Prices?</strong></p>
+<p>We are using regression in predicting house prices because it
+provides quantitative estimates. This is crucial because house prices
+are continuous and can vary widely based on numerous factors. Regression
+models can incorporate these factors to make predictions, helping us
+understand the impact of different features on the price.</p>
+<p><strong>What is K-Fold Cross-Validation?</strong></p>
+<p>K-Fold Cross-Validation is a technique used to evaluate the
+performance of a model. In this method, the dataset is divided into k
+consecutive folds. Each fold acts as the test set exactly once while the
+remaining k-1 folds form the training set. The process is repeated k
+times, with each of the folds used exactly once as the test data. This
+technique helps in reducing bias as each data point gets to be in a test
+set exactly once and gets to be in a training set k-1 times.</p>
+<p><strong>Why Use K-Fold Cross-Validation?</strong></p>
+<p>K-Fold Cross-Validation is useful in scenarios like predicting house
+prices, where the dataset might not be very large. It maximizes the
+amount of data that is used for training the model and makes sure the
+model can generalize to new, unseen data. It helps prevent overfitting
+and underfitting by validating the model’s performance on different
+subsets of the data.</p>
+<p><strong>What is RMSE?</strong></p>
+<p>Root Mean Squared Error (RMSE) is a standard way to measure the error
+of a model in predicting quantitative data. It is particularly common in
+regression analysis to measure the difference between values predicted
+by a model and the actual observed values.</p>
+<p><strong>How RMSE Works and Its Usefulness</strong></p>
+<p>RMSE is calculated as the square root of the mean of the square of
+all of the error. We square the residuals, average those squares, and
+then take the square root. This ensures errors are positive, larger
+errors are emphasized, and the units are the same as the units of the
+predicted value. RMSE is a good measure to determine how accurately the
+model predicts the response, and it is the most an important measure for
+fit because our main purpose of the model is prediction.</p>
+<p><strong>Note on RMSLE (Root Mean Squared Logarithmic
+Error)</strong></p>
+<p>Since we have previously performed a log transformation on the
+'SalePrice' in our dataset to handle its skewed distribution, the error
+metric becomes the Root Mean Squared Logarithmic Error (RMSLE) instead
+of RMSE.</p>
+</div>
+<div class="cell markdown" id="CodcYh9JL1mu">
+<p>Let's define a function that takes a model, trains it, performs cross
+validation, and gives us the "score."</p>
+</div>
+<div class="cell code" id="f3yAMK1Yf7uf">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> rmsle(model):</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># use cross validation</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>    kf <span class="op">=</span> KFold(n_splits<span class="op">=</span><span class="dv">10</span>, random_state<span class="op">=</span><span class="dv">42</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.sqrt(<span class="op">-</span>cross_val_score(model, X_train, y_train, scoring<span class="op">=</span><span class="st">&quot;neg_mean_squared_error&quot;</span>, cv<span class="op">=</span>kf)).mean()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="a0Y1eoPAL8wq">
+<p>We will be testing out 5 regression models to figure out how to best
+predict sale price.</p>
+<p><strong>Linear Regressor</strong></p>
+<p>Linear Regression attempts to model the relationship between a scalar
+dependent variable and one or more independent variables by fitting a
+linear equation to observed data. The equation for a linear regression
+line is <code>y = b0 + b1*x1 + b2*x2 + ... + bn*xn</code>, where:</p>
+<ul>
+<li><code>y</code> is the predicted value,</li>
+<li><code>b0</code> is the intercept,</li>
+<li><code>b1, b2, ..., bn</code> are the coefficients,</li>
+<li><code>x1, x2, ..., xn</code> are the features.</li>
+</ul>
+<p><strong>Support Vector Regressor (SVR)</strong></p>
+<p>Support Vector Regression (SVR) is a machine learning model that
+comes from applying the Support Vector Machines (SVM) to regression
+problems. SVM is used for classification tasks, where the goal is to
+find the best boundary that separates classes of data points. SVR
+modifies this approach to predict a continuous variable. SVR works by
+fitting the best line (in a linear SVR) or curve (in a non-linear SVR)
+within a threshold value. The goal is to keep as many data points as
+possible within this boundary while minimizing the errors.</p>
+<ul>
+<li>Margin of Tolerance (ε): SVR has the concept of an ε-insensitivity
+zone. Predictions made within this ε range from the actual values are
+not considered errors. This helps in reducing the model's sensitivity to
+slight variations in the training set.</li>
+<li>Kernel Trick: For non-linear data, SVR uses a kernel function to
+transform the data into a higher-dimensional space where the data can be
+linearly separated. Common kernels include linear, polynomial, and
+radial basis function (RBF).</li>
+</ul>
+<p><strong>Decision Tree Regressor</strong></p>
+<p>A Decision Tree Regressor constructs a tree-like model of decisions
+and their possible outcomes. The final result is a tree with decision
+nodes and leaf nodes. A decision node has two or more branches, each
+representing values for the attribute tested. A leaf node represents a
+prediction on the numerical target.</p>
+<p><strong>Random Forest Regressor</strong></p>
+<p>Random Forest is an ensemble method that builds upon multiple
+decision trees to improve prediction accuracy. It reduces the risk of
+overfitting by averaging multiple decision trees, each trained on
+different parts of the same training set. It creates multiple trees
+(forest) and merges them together to get a more stable prediction. Each
+tree gives a prediction, and the higher the number of trees voting on a
+prediction, the more it becomes the final prediction.</p>
+<p><strong>KNN Regressor</strong></p>
+<p>K-Nearest Neighbors Regressor is a type of instance-based learning
+where all computation is done at classification. The output is a
+property value for the object. This value is the average of the values
+of its k closest instances.</p>
+</div>
+<div class="cell markdown" id="hyK85Jw-QBK-">
+<p>Let's initialize our models, train them, and score them.</p>
+</div>
+<div class="cell code" id="uI7df7uCfjll">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>scores <span class="op">=</span> []</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>models <span class="op">=</span> {</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Linear Regressor&#39;</span>: LinearRegression(),</span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Support Vector Regressor&#39;</span>: SVR(),</span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Decision Tree Regressor&#39;</span>: DecisionTreeRegressor(),</span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Random Forest Regressor&#39;</span>: RandomForestRegressor(),</span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;KNN Regressor&#39;</span>: KNeighborsRegressor()</span>
+<span id="cb52-8"><a href="#cb52-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb52-9"><a href="#cb52-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-10"><a href="#cb52-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, model <span class="kw">in</span> models.items():</span>
+<span id="cb52-11"><a href="#cb52-11" aria-hidden="true" tabindex="-1"></a>    scores.append(rmsle(model))</span>
+<span id="cb52-12"><a href="#cb52-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-13"><a href="#cb52-13" aria-hidden="true" tabindex="-1"></a>score_table <span class="op">=</span> pd.DataFrame(<span class="bu">list</span>(models.keys()), columns <span class="op">=</span> [<span class="st">&#39;Regressors&#39;</span>])</span>
+<span id="cb52-14"><a href="#cb52-14" aria-hidden="true" tabindex="-1"></a>score_table[<span class="st">&#39;RMSLE&#39;</span>] <span class="op">=</span> scores</span></code></pre></div>
+</div>
+<div class="cell markdown" id="SYi5T-iZUJbr">
+<p>Let's train our models, test them on our allocated test set, and
+record those scores.</p>
+</div>
+<div class="cell code" id="4zP4Dz-XURSG">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>test_scores <span class="op">=</span> []</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, model <span class="kw">in</span> models.items():</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>    model.fit(X_train, y_train)</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>    y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>    rmsle <span class="op">=</span> np.sqrt(mean_squared_error(y_test, y_pred))</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>    test_scores.append(rmsle)</span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a>test_score_table <span class="op">=</span> pd.DataFrame(<span class="bu">list</span>(models.keys()), columns <span class="op">=</span> [<span class="st">&#39;Regressors&#39;</span>])</span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a>test_score_table[<span class="st">&#39;RMSLE&#39;</span>] <span class="op">=</span> test_scores</span></code></pre></div>
+</div>
+<section id="visualization" class="cell markdown" id="5gpffzOZQS4N">
+<h1>Visualization</h1>
+</section>
+<div class="cell markdown" id="BdNszGfBV7Ga">
+<p>Let's create a function to plot model scores</p>
+</div>
+<div class="cell code" id="uzEm-DdQV9Yv">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_model_scores(table):</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>    barplot <span class="op">=</span> sns.barplot(x<span class="op">=</span><span class="st">&#39;Regressors&#39;</span>, y<span class="op">=</span><span class="st">&#39;RMSLE&#39;</span>, data<span class="op">=</span>table)</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">&#39;Root Mean Squared Logarithmic Error vs Regressor Models&#39;</span>)</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Regressors&#39;</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Root Mean Squared Logarithmic Error&#39;</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>    plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb54-8"><a href="#cb54-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-9"><a href="#cb54-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Loop over the bars in the barplot to add text annotations</span></span>
+<span id="cb54-10"><a href="#cb54-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> p <span class="kw">in</span> barplot.patches:</span>
+<span id="cb54-11"><a href="#cb54-11" aria-hidden="true" tabindex="-1"></a>        barplot.annotate(<span class="bu">format</span>(p.get_height(), <span class="st">&#39;.3f&#39;</span>),  <span class="co"># Format the label to display 3 decimal places</span></span>
+<span id="cb54-12"><a href="#cb54-12" aria-hidden="true" tabindex="-1"></a>                        (p.get_x() <span class="op">+</span> p.get_width() <span class="op">/</span> <span class="fl">2.</span>, p.get_height()),  <span class="co"># Position the text to be at the center of each bar</span></span>
+<span id="cb54-13"><a href="#cb54-13" aria-hidden="true" tabindex="-1"></a>                        ha<span class="op">=</span><span class="st">&#39;center&#39;</span>, va<span class="op">=</span><span class="st">&#39;center&#39;</span>,  <span class="co"># Center alignment for the text</span></span>
+<span id="cb54-14"><a href="#cb54-14" aria-hidden="true" tabindex="-1"></a>                        xytext<span class="op">=</span>(<span class="dv">0</span>, <span class="dv">9</span>),  <span class="co"># The text offset that lifts the text higher above the bar</span></span>
+<span id="cb54-15"><a href="#cb54-15" aria-hidden="true" tabindex="-1"></a>                        textcoords<span class="op">=</span><span class="st">&#39;offset points&#39;</span>)</span>
+<span id="cb54-16"><a href="#cb54-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-17"><a href="#cb54-17" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="fZ5u88aFQVjA">
+<p>Let's compare the cross validation scores of each model side by side
+visually.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:844}"
+id="b_m3tYF4iNTj" data-outputId="7e405fdb-55ab-44a3-9018-6c558c3be342">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>plot_model_scores(score_table)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/6d864f3c92db9fc1a2b8ad234282abb1e77e9d20.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="K1ahgotu6CGU">
+<p>The bar chart above compares the Root Mean Squared Logarithmic Error
+(RMSLE) across our various regression models used in predictive
+analysis. On the Y-axis, RMSLE measures the differences between actual
+and predicted values during cross-validation training.</p>
+<p>Notably, both Linear Regressor and the Random Forest Regressor have
+the lowest RMSLE at 0.135, suggesting they perform significantly well.
+In contrast, the Support Vector Regressor shows the highest error with
+an RMSLE of 0.283, indicating less predictive accuracy due to the
+model's sensitivity to hyperparameters or data characteristics.</p>
+</div>
+<div class="cell markdown" id="q243wfVOVwJ6">
+<p>Let's compare the test scores of each model side by side
+visually.</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:844}"
+id="qCshNVBWV4ft" data-outputId="c34a7b8d-1982-4d94-afab-68a4182c699a">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>plot_model_scores(test_score_table)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_775482dd270342529841f7d6caab4b11/67591eb2785e32de15933db2596ebd074788ce3d.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="Ny3Ujomx-3I0">
+<p>According to the test results, linear regression performs the best
+with the lowest RMSLE.</p>
+</div>
+<section id="insights-and-conclusions" class="cell markdown"
+id="3TQhSPU6XAiS">
+<h1>Insights and Conclusions</h1>
+</section>
+<div class="cell markdown" id="YQ98kF1-X1iA">
+<p>There is a lot to digest by the end of this project. As visualized,
+with the lowest validation and testing RMSLE, the linear regressor model
+outperforms all other regression models. This suggests that when it
+comes to forecasting housing prices using past data, the linear
+regression algorithm comes out on top for accuracy. It's able to
+understand the complex connections within the data through methods like
+stochastic gradient descent, resulting in better predictions. Following
+closely behind is the Random Forest Regressor, which excels by blending
+numerous decision trees to make solid predictions about house
+prices.</p>
+<p>Overall, The low RMSLE indicates that the chosen features for
+predicting housing prices are both relevant and informative. These
+features account for crucial factors like location, size, amenities, and
+neighborhood characteristics, all of which play significant roles in
+determining housing prices. The low value also shows that the model
+performs well when faced with new, unseen data, a crucial aspect for its
+practical use. This suggests that the model's predictions aren't heavily
+swayed by random fluctuations or unusual data points during training. It
+gives confidence that the model can reliably forecast prices for new
+housing listings or properties not originally in the training set.</p>
+<p>To conclude, we determined that our housing dataset contains
+redundant features that will overcomplicate the model with their
+co-dependencies such as: Year Built and Garage Year built; total
+basement square footage and 1st floor sq footage; living area and total
+rooms above ground; garage capacity in cars and garage area in sq
+footage. We also identified some features that are highly correlated
+with our target variable such as: overall quality, living area, garage
+area in capacity, garage area in sq footage, total basement area, 1st
+floor area, year build, number of full bathrooms, year remodeled, and
+the year the garage was built. Combining this info, we engineered new
+features that eliminate multicollinearity while capturing the strongest
+correlations between sale price and predictor variables. We used these
+features to build regression models, from which we decided the best
+model. We learned what features are the best predictors of sale price
+and how to properly harness them, while developing a prediction tool to
+assist buyers, sellers, brokers, and policymakers as mentioned in our
+introduction.</p>
+</div>
+</body>
+</html>
